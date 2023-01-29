@@ -10,12 +10,12 @@ if os.path.exists("RJ"):
   load_dotenv("RJ")
 # load_dotenv()
 
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "11031577"))
+API_HASH = getenv("API_HASH", "3648f70531dbb94a62284e4fe15ab11d")
 
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("BOT_TOKEN", "6175660016:AAGWVxAfGlJxzILCDEAtQZuKKbv5l9NBx1I")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "5400")
@@ -25,12 +25,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001319593048"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Romeo-musicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MISA MUSIC")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", None).split())
+    map(int, getenv("OWNER_ID", "5650459143").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -39,16 +39,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Romeo-RJ/Romeo-musicBot",
+    "https://github.com/OpSahubot/Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/ROMEO_OP")
+    "SUPPORT_CHANNEL", "https://t.me/WCFnetwork")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ROMEOBOT_OP")
+    "SUPPORT_GROUP", "https://t.me/WorldChattingFriendsWCF")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -64,7 +64,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://telegra.ph/file/f84d28d91512a445ecce1.mp4")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/WelcomeToSupportGroup")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
@@ -88,7 +88,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQDBt3ke-SkmAapbsSGDAHoQ8KC0yI19lmiorTGyPCKeBVwSLepdUDuZqHq4OxlPB0UXhKtlwvukPEQjfFxdHfCxXV66juLknBBCm3BgzPz_Sea27EP6lKqoZcxH46tZ4LW0AysYM3lgCC_xVQ3IjfpSJ5IWoQ-gyNyBTmK1W1t-RKrzsOPyChc4htouze8pEveFqWx7z8BUatvHYPkVUhPKPNQaDzbZX0Ue02GDXeH7IVT9h5XrvRruqsFnYNisrrH5a1LoS1H0LVHbRD5bDEmrVMmRFOvZlpgkyOriiNaXXHCmbhU_SSxA_YtmJ_BMwNQa1c0Vh_UJ6xtRD-e__85uAAAAAVKLbG8A")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -106,11 +106,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e745fdaf1966f228582dc.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/fbc4c40eb1c095614720f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/e745fdaf1966f228582dc.jpg",
+    "https://telegra.ph/file/fbc4c40eb1c095614720f.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
