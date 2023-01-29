@@ -10,8 +10,8 @@ if os.path.exists("RJ"):
   load_dotenv("RJ")
 # load_dotenv()
 
-API_ID = int(getenv("API_ID", "11031577"))
-API_HASH = getenv("API_HASH", "3648f70531dbb94a62284e4fe15ab11d")
+API_ID = int(getenv("API_ID", "23394751"))
+API_HASH = getenv("API_HASH", "229f808354ac3146afd56f9aa8a8e08b")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "6175660016:AAGWVxAfGlJxzILCDEAtQZuKKbv5l9NBx1I")
 
