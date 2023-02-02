@@ -13,7 +13,7 @@ if os.path.exists("RJ"):
 API_ID = int(getenv("API_ID", "23394751"))
 API_HASH = getenv("API_HASH", "229f808354ac3146afd56f9aa8a8e08b")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6175660016:AAGWVxAfGlJxzILCDEAtQZuKKbv5l9NBx1I")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority")
 
