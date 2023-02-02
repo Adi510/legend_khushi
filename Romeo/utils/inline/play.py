@@ -64,12 +64,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/WCFnetwork"
-            )
+            ),
         ],
         [
             InlineKeyboardButton(
                 text="❤️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ❤️", url=f"https://t.me/WorldChattingFriendsWCF"
-            )
+            ),
         ],
         [
             InlineKeyboardButton(
