@@ -59,16 +59,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=" 𝐌𝐞𝐧𝐮 ",
+                text="⚠️ 𝐌𝐞𝐧𝐮 ⚠️",
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/WCFnetwork"
+                text="⬆️ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 ↖️", url=f"https://t.me/REAL_FEELINGS_OF_LAV"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❤️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ❤️", url=f"https://t.me/WorldChattingFriendsWCF"
+                text="❤️ 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ❤️", url=f"https://t.me/TKS_CHATTING_GROUP"
             ),
         ],
         [
