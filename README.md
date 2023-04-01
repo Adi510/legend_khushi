@@ -1,4 +1,4 @@
-### 𝗔 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗠𝘂𝘀𝗶𝗰 𝗯𝗼𝘁 𝗳𝗼𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹....
+𝗼### 𝗔 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗠𝘂𝘀𝗶𝗰 𝗯𝗼𝘁 𝗳𝗼𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹....
 
 <p align="center"><a href="https://t.me/mysterious_lav"><img src="https://te.legra.ph/file/09e93cc1d04858ed1897e.jpg"></a></p>
 
@@ -8,7 +8,7 @@
 - Fork the repo then 
 - Tap below botton ☟︎︎︎☟︎︎︎☟︎︎︎ for deploy Red-Wine
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OpQueenbots/Red-Wine)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/lavkush639214/parul-lav)
 
 
 
