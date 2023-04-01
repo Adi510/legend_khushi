@@ -1,7 +1,7 @@
 {
     "name": "RomeoBot",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/e745fdaf1966f228582dc.jpg",
+    "logo": "https://te.legra.ph/file/09e93cc1d04858ed1897e.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -75,12 +75,12 @@
       },
       "SUPPORT_GROUP": {
         "description": "Fill the link of your group..",
-        "value": "https://t.me/RomeoBot_OP",
+        "value": "https://t.me/TKS_CHATTING_GROUP",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Fill the link of channel.",
-        "value": "https://t.me/Romeo_OP",
+        "value": "https://t.me/TKS_CHATTING_GROUP",
         "required": false
       }
     },
