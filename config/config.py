@@ -25,12 +25,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001737029258"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001554952079"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝐏𝐀𝐑𝐔𝐋-𝐓𝐔𝐍𝐄")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "KHUSHI-TUNE")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6041846323").split())
+    map(int, getenv("OWNER_ID", "6066176286").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -39,16 +39,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/lavkush639214/parul-lav",
+    "https://github.com/Adi510/legend_khushi",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/REAL_FEELINGS_OF_LAV")
+    "SUPPORT_CHANNEL", "https://t.me/BOTS_WORLD1")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TKS_CHATTING_GROUP")
+    "SUPPORT_GROUP", "https://t.me/DDP_LOG")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -64,7 +64,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/TKS_CHATTING_GROUP")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/DDP_LOG")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
